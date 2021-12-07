@@ -1,6 +1,6 @@
 # Configure the AWS Provider
 provider "aws" {
-  region = "eu-west-1"
+  region = "eu-west-1" //Ireland!
 }
 
 resource "aws_instance" "wpress" {
