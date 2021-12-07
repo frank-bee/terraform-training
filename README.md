@@ -64,8 +64,13 @@ resource "aws_network_interface" "wpress" {
 ```
 - Apply the changes to your stack
 - Does your wordpress appear in the browser now?
+
+## 2.5 (optional) Try terraform graph
+- Run `terraform graph`
+- Copy the output to https://dreampuf.github.io/GraphvizOnline/
+- Have a look at the dependencies
  
-## 2.5 (optional) Make use of a data source
+## 2.6 (optional) Make use of a data source
 - Refactor the "hardcoded" subnet_id
 - Use https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/subnet \
 Hint: Filter
