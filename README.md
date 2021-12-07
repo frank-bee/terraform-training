@@ -2,7 +2,7 @@
 
 See https://pages.github.boschdevcloud.com/GS-PJ-TOP98-AI-KNOW/terraform-beginner-workshop/
 
-# Preparaion 
+# Preparation 
 
 - login to the AWS account (platform) https://myapplications.microsoft.com/
 - Start your cloud9 IDE, check AWS auth. settings 
