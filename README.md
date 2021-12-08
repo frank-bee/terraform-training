@@ -12,7 +12,9 @@ git clone https://github.com/frank-bee/terraform-training.git
 # Lab 1
 
 ## 1.1 Get started
-- go to the root of the training repo, where you find the `main.tf`
+- Open [this Lab docu](https://github.com/frank-bee/terraform-training) in seperate browser window
+- Open [the slides](https://pages.github.boschdevcloud.com/GS-PJ-TOP98-AI-KNOW/terraform-beginner-workshop/#1) in seperate browser window
+- Use the Cloud9 terminal to go to the root of the training repo, where you find the `main.tf`
 - Run `terraform init`\
   Observe the output
 - Run `terraform plan`\
@@ -34,7 +36,7 @@ git clone https://github.com/frank-bee/terraform-training.git
 
 ## 2.1 Apply, Change, Apply
 - Apply the infrastructure with a `terraform apply`
-- Check in the AWS console the result 
+- Check the result in the AWS console (region Ireland!)
 - Change something in the code, e.g. enabling /disabling ec2 monitoring (attribute `monitoring`)\
 What do you expect running `terraform plan`? Do it
 - Apply the changes with a `terraform apply --auto-approve`
